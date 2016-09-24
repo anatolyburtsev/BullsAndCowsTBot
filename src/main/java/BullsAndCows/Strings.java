@@ -16,6 +16,7 @@ public class Strings {
             "\n" +
             "Начать игру: " + Commands.start + "\n" +
             "Сделать предположение: просто вводи " + Games.getSize() + "-х значные числа после начала игры\n" +
+            "(В некоторых, больших чатах, бот не видит все сообщения и надо вводить '/ число'\n" +
             "Справка: " + Commands.help + "\n" +
             "Подробнее: https://ru.wikipedia.org/wiki/Быки_и_коровы";
     public static final String zeroBull = "быков";
