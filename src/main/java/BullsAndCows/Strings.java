@@ -30,6 +30,6 @@ public class Strings {
     public static final String notStartYet = "Ты еще не начал игру!";
     public static final String useCorrectNumber = "Не пытайся обмануть меня, человечишко! Вводи корректное, четырехзначное число";
     public static final String gameAlreadyStarted = "В этом чате уже начата игра";
-    public static final String dublicateProhibited = "Нельзя использовать числа с повторяющимися цифрами";
+    public static final String duplicateProhibited = "Нельзя использовать числа с повторяющимися цифрами";
     public static final String and = "и";
 }

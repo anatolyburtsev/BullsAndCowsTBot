@@ -48,7 +48,7 @@ public class Games {
         }
         if (isDigitsDublicate(number)) {
             logger.info("chatId " + chatId + " input number with duplicates digits: " + number);
-            return Strings.dublicateProhibited;
+            return Strings.duplicateProhibited;
         }
         int pattern = currentGames.get(chatId);
         BullsCows bullsAndCows = BullsCows.getBullsAndCows(pattern, Integer.parseInt(number));
