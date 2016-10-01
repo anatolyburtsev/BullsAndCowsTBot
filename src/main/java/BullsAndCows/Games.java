@@ -68,8 +68,8 @@ public class Games {
     }
 
     protected int getNumberByChatId(Long chatId) {
-        //only for test
-        return currentGames.get(chatId);
+        //protected only for test
+        return currentGames == null ? -1 : currentGames.get(chatId);
     }
 
     protected static boolean isItNumberWithGoodLength(String number) {
